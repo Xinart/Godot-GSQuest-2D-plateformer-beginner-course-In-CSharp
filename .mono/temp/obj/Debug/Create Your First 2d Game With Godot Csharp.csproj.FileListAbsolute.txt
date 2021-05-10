@@ -1,0 +1,8 @@
+C:\Godot\Projects\GDQuest\Create Your First 2D Game With Godot Csharp\.mono\temp\obj\Debug\Create Your First 2d Game With Godot Csharp.csprojAssemblyReference.cache
+C:\Godot\Projects\GDQuest\Create Your First 2D Game With Godot Csharp\.mono\temp\obj\Debug\Create Your First 2d Game With Godot Csharp.AssemblyInfoInputs.cache
+C:\Godot\Projects\GDQuest\Create Your First 2D Game With Godot Csharp\.mono\temp\obj\Debug\Create Your First 2d Game With Godot Csharp.AssemblyInfo.cs
+C:\Godot\Projects\GDQuest\Create Your First 2D Game With Godot Csharp\.mono\temp\obj\Debug\Create Your First 2d Game With Godot Csharp.csproj.CoreCompileInputs.cache
+C:\Godot\Projects\GDQuest\Create Your First 2D Game With Godot Csharp\.mono\temp\bin\Debug\Create Your First 2d Game With Godot Csharp.dll
+C:\Godot\Projects\GDQuest\Create Your First 2D Game With Godot Csharp\.mono\temp\bin\Debug\Create Your First 2d Game With Godot Csharp.pdb
+C:\Godot\Projects\GDQuest\Create Your First 2D Game With Godot Csharp\.mono\temp\obj\Debug\Create Your First 2d Game With Godot Csharp.dll
+C:\Godot\Projects\GDQuest\Create Your First 2D Game With Godot Csharp\.mono\temp\obj\Debug\Create Your First 2d Game With Godot Csharp.pdb

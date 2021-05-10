@@ -1,0 +1,25 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://src/Scripts/Enemy.cs" type="Script" id=1]
+[ext_resource path="res://src/Assets/enemy.png" type="Texture" id=2]
+
+[node name="Enemy" type="KinematicBody2D"]
+position = Vector2( 0, -48 )
+collision_layer = 2
+collision_mask = 9
+script = ExtResource( 1 )
+stomp_bounce_impulse = 1000
+
+[node name="VisibilityEnabler2D" type="VisibilityEnabler2D" parent="."]
+position = Vector2( 1, -1 )
+scale = Vector2( 5.65525, 4.87723 )
+process_parent = true
+physics_process_parent = true
+
+[node name="BodySprite" type="Sprite" parent="."]
+position = Vector2( 0, 1.25 )
+scale = Vector2( 1, 1.00538 )
+texture = ExtResource( 2 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( -21, 48, 23, 48, 37, 44, 47, 31, 50, 17, 50, 2, 44, -13, 32, -20, 10, -24, -11, -24, -33, -19, -44, -14, -47, -1, -50, 17, -48, 31, -37, 44 )
