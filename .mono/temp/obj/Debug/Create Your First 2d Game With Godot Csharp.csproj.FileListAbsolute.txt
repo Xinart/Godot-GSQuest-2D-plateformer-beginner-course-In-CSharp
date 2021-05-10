@@ -6,3 +6,11 @@ C:\Godot\Projects\GDQuest\Create Your First 2D Game With Godot Csharp\.mono\temp
 C:\Godot\Projects\GDQuest\Create Your First 2D Game With Godot Csharp\.mono\temp\bin\Debug\Create Your First 2d Game With Godot Csharp.pdb
 C:\Godot\Projects\GDQuest\Create Your First 2D Game With Godot Csharp\.mono\temp\obj\Debug\Create Your First 2d Game With Godot Csharp.dll
 C:\Godot\Projects\GDQuest\Create Your First 2D Game With Godot Csharp\.mono\temp\obj\Debug\Create Your First 2d Game With Godot Csharp.pdb
+D:\Martin\Documents\GitHub\CSharp-godot-beginner-2d-plateformer\.mono\temp\bin\Debug\Create Your First 2d Game With Godot Csharp.dll
+D:\Martin\Documents\GitHub\CSharp-godot-beginner-2d-plateformer\.mono\temp\bin\Debug\Create Your First 2d Game With Godot Csharp.pdb
+D:\Martin\Documents\GitHub\CSharp-godot-beginner-2d-plateformer\.mono\temp\obj\Debug\Create Your First 2d Game With Godot Csharp.csprojAssemblyReference.cache
+D:\Martin\Documents\GitHub\CSharp-godot-beginner-2d-plateformer\.mono\temp\obj\Debug\Create Your First 2d Game With Godot Csharp.AssemblyInfoInputs.cache
+D:\Martin\Documents\GitHub\CSharp-godot-beginner-2d-plateformer\.mono\temp\obj\Debug\Create Your First 2d Game With Godot Csharp.AssemblyInfo.cs
+D:\Martin\Documents\GitHub\CSharp-godot-beginner-2d-plateformer\.mono\temp\obj\Debug\Create Your First 2d Game With Godot Csharp.csproj.CoreCompileInputs.cache
+D:\Martin\Documents\GitHub\CSharp-godot-beginner-2d-plateformer\.mono\temp\obj\Debug\Create Your First 2d Game With Godot Csharp.dll
+D:\Martin\Documents\GitHub\CSharp-godot-beginner-2d-plateformer\.mono\temp\obj\Debug\Create Your First 2d Game With Godot Csharp.pdb

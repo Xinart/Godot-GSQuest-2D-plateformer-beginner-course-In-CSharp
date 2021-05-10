@@ -8,9 +8,6 @@ namespace PlateformerGame2D
         /// <summary>
         /// Force applyied to the Player to make him bounce when stomping
         /// </summary>
-        [Export] private float _stomp_impulse = 800f;
-
-
 
         public void _on_EnemyDetector_body_entered(PhysicsBody2D body)
         {

@@ -14,7 +14,7 @@ position = Vector2( 0, -48 )
 collision_mask = 10
 script = ExtResource( 1 )
 gravity = 4000.0
-speed = Vector2( 800, 1400 )
+speed = Vector2( 1000, 1400 )
 
 [node name="BodySprite" type="Sprite" parent="."]
 texture = ExtResource( 2 )

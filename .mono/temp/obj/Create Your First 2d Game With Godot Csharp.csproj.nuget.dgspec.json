@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Godot\\Projects\\GDQuest\\Create Your First 2D Game With Godot Csharp\\Create Your First 2d Game With Godot Csharp.csproj": {}
+    "D:\\Martin\\Documents\\GitHub\\CSharp-godot-beginner-2d-plateformer\\Create Your First 2d Game With Godot Csharp.csproj": {}
   },
   "projects": {
-    "C:\\Godot\\Projects\\GDQuest\\Create Your First 2D Game With Godot Csharp\\Create Your First 2d Game With Godot Csharp.csproj": {
+    "D:\\Martin\\Documents\\GitHub\\CSharp-godot-beginner-2d-plateformer\\Create Your First 2d Game With Godot Csharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Godot\\Projects\\GDQuest\\Create Your First 2D Game With Godot Csharp\\Create Your First 2d Game With Godot Csharp.csproj",
+        "projectUniqueName": "D:\\Martin\\Documents\\GitHub\\CSharp-godot-beginner-2d-plateformer\\Create Your First 2d Game With Godot Csharp.csproj",
         "projectName": "Create Your First 2d Game With Godot Csharp",
-        "projectPath": "C:\\Godot\\Projects\\GDQuest\\Create Your First 2D Game With Godot Csharp\\Create Your First 2d Game With Godot Csharp.csproj",
+        "projectPath": "D:\\Martin\\Documents\\GitHub\\CSharp-godot-beginner-2d-plateformer\\Create Your First 2d Game With Godot Csharp.csproj",
         "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
-        "outputPath": "C:\\Godot\\Projects\\GDQuest\\Create Your First 2D Game With Godot Csharp\\.mono\\temp\\obj\\",
+        "outputPath": "D:\\Martin\\Documents\\GitHub\\CSharp-godot-beginner-2d-plateformer\\.mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
