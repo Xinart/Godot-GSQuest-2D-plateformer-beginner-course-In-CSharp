@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://src/Scripts/Player.cs" type="Script" id=1]
 [ext_resource path="res://src/Assets/player.png" type="Texture" id=2]
@@ -9,12 +9,15 @@ extents = Vector2( 39.4314, 43.4749 )
 [sub_resource type="RectangleShape2D" id=2]
 extents = Vector2( 48, 40 )
 
+[sub_resource type="OccluderPolygon2D" id=3]
+polygon = PoolVector2Array( 47.871, -31.7338, 47.8474, 30.7124, 46.1993, 36.7553, 43.5686, 41.7713, 39.7803, 44.823, 33.1151, 47.8299, -33.3908, 48.2508, -39.2109, 45.3665, -43.0337, 41.9193, -46.1494, 37.6104, -48.4037, 30.5721, -47.7022, -31.7246, -45.7372, -37.9084, -42.5313, -42.6647, -37.7224, -46.0808, -33.4916, -47.894, 32.5538, -48.0003, 37.7996, -46.1896, 42.6831, -42.2563, 46.3512, -38.0137 )
+
 [node name="Player" type="KinematicBody2D"]
 position = Vector2( 0, -48 )
 collision_mask = 10
 script = ExtResource( 1 )
 gravity = 4000.0
-speed = Vector2( 1000, 1400 )
+speed = Vector2( 800, 1200 )
 
 [node name="BodySprite" type="Sprite" parent="."]
 texture = ExtResource( 2 )
@@ -42,5 +45,8 @@ collision_mask = 2
 [node name="CollisionShape2D" type="CollisionShape2D" parent="EnemyDetector"]
 modulate = Color( 0, 0, 0, 1 )
 shape = SubResource( 2 )
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="."]
+occluder = SubResource( 3 )
 
 [connection signal="body_entered" from="EnemyDetector" to="." method="_on_EnemyDetector_body_entered"]
