@@ -5,6 +5,7 @@ namespace PlateformerGame2D
     public class Enemy : Actor, I_StompBouncible
     {
         [Export] public int stomp_bounce_impulse { get; set; } = 300;
+        private int _score = 100;
 
         // Called when the node enters the scene tree for the first time.
         public override void _Ready()
@@ -33,6 +34,17 @@ namespace PlateformerGame2D
         public void die()
         {
             QueueFree();
+            PlayerData player_data = (PlayerData)GetNode("/root/PlayerData");
+            player_data.score += _score;
+        }
+
+        public void decide_direction(Vector2 player_gloabal_position)
+        {
+            float direction = Godot.Mathf.Sign(player_gloabal_position.x - this.GlobalPosition.x);
+            if (direction > 0.0)
+            {
+                _velocity.x *= -1;
+            }
         }
     }
 }

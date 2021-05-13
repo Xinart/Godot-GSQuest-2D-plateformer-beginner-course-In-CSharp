@@ -1,7 +1,10 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://src/Scripts/Enemy.cs" type="Script" id=1]
 [ext_resource path="res://src/Assets/enemy.png" type="Texture" id=2]
+
+[sub_resource type="OccluderPolygon2D" id=1]
+polygon = PoolVector2Array( -6.97992, -45.7193, 7.81119, -45.6386, 15.8293, -43.4114, 24.0701, -38.7342, 33.9813, -31.4956, 43.0017, -20.8048, 49.238, -10.1141, 53.9152, 6.14484, 53.9152, 23.0719, 51.3708, 30.4157, 47.9059, 36.7835, 42.5682, 41.372, 38.0733, 43.8068, 30.1135, 46.0542, 23.8394, 48.0208, -22.3272, 48.2081, -36.0929, 44.4623, -43.8125, 40.5625, -49.875, 33.5625, -54, 23.875, -53.8331, 7.52321, -51.4184, -1.79246, -47.7061, -13.2829, -41.873, -21.8534, -36.2384, -29.2939, -30.4819, -34.383, -22.89, -39.8892, -15.465, -43.3932 )
 
 [node name="Enemy" type="KinematicBody2D"]
 position = Vector2( 0, -48 )
@@ -23,3 +26,7 @@ texture = ExtResource( 2 )
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
 polygon = PoolVector2Array( -21, 48, 23, 48, 37, 44, 47, 31, 50, 17, 50, 2, 44, -13, 32, -20, 10, -24, -11, -24, -33, -19, -44, -14, -47, -1, -50, 17, -48, 31, -37, 44 )
+
+[node name="LightOccluder2D" type="LightOccluder2D" parent="."]
+visible = false
+occluder = SubResource( 1 )

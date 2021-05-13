@@ -58,6 +58,8 @@ namespace PlateformerGame2D
         /// </summary>
         public void die()
         {
+            PlayerData player_data = (PlayerData)GetNode("/root/PlayerData");
+            player_data.deaths += 1;
             QueueFree();
         }
 
