@@ -1,6 +1,7 @@
 using System;
 using Godot;
 
+[Tool]
 public class Portal : Node2D
 {
     private AnimationPlayer _anim_player;
@@ -14,8 +15,7 @@ public class Portal : Node2D
 
     override public String _GetConfigurationWarning()
     {
-        if (next_scene == null) return "The next scene property cannot be empty";
-        return "";
+        return next_scene == null ? "The next scene property cannot be empty" : "";
     }
 
     public void _on_portal_body_entered(PhysicsBody2D body)
